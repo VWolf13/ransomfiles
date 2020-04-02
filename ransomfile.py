@@ -3,7 +3,7 @@ os.system('pkg install storage')
 os.system('clear')
 
 print("\x1b[1;31m"+"\n\n\n\n\n\n\n               +++++++++{03/04/20}++++++++")
-print("\n\n Su empresa se ve afectada por un Ransomware en el que pide una contraseña para librarse de él antes de que destruya sus archivos")
+print("\x1b[1;37m"+"\n\n Su empresa se ve afectada por un Ransomware en el que pide una contraseña para librarse de él antes de que destruya sus archivos")
 
 os.system('sleep 4')
 
@@ -11,7 +11,7 @@ print("\n\n $Los atacantes dejaron un mensaje $>descifras o pierdes_")
 
 os.system('sleep 2')
 
-print(" Redirigiendo al portal...\n")
+print("\x1b[1;31m"+" Redirigiendo al portal...\n")
 print(">_")
 os.system("sleep 15; clear")
 print("\x1b[1;33m"+"\n\n\nLa pass se encuentra aquí (cifrada), decifrala para poder desbloquear su celular ^^")
