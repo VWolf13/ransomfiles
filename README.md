@@ -1,9 +1,9 @@
 # ransomfiles
-PoC Ransomfiles
-PoC Ransomfiles es una Prueba de concepto de la función de un basico ransomware para termux.
-Para su desbloqueo es necesario insertar una key, la cual aparecerá cifrada al iniciar el script ;)
-
-El juego trata de dechifrar la "key" y asi poder librarse ;) 
-(Por motivos de seguridad, no bloquea los archivos :')
+PoC Ransomfiles Game
+PoC Ransomfiles es una Prueba de concepto de la función de un basico ransomware para termux en modo de juego.
+Su empresa se ve atacada, por un ransomware, los atacantes dejan una marca y una llave encriptada, ¡necesitas desencriptarla!
+  -Al desencriptarla recibirá un regalo. 
+  
+(Por motivos de seguridad, no bloquea los archivos ;)
 Sitio web
 https://vwolf.site
