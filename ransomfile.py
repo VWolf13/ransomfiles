@@ -1,21 +1,3 @@
-import os
-os.system('pkg install storage')
-os.system('clear')
-print("\x1b[1;33m"+"\n\n\nLa pass se encuentra aquí (cifrada), por favor decifrala para poder desbloquear su celular ^^")
-print("\n\n|>Pass: aW5zaWVydGUgZWwgbsO6bWVybyA1") 
-print("\x1b[1;31m"+"\n\n\n          --------Solo tiene un intento--------") 
-vw = input("\x1b[1;32m"+"\n\n|>Tus archivos serán eliminados en 1h, por favor introduce la pass necesaria para desbloquearlos: ")
-
-for vwtool in vw:
-
-
-    vwtool = vwtool.upper()
-
-if (vwtool == "5"):
-
-	print("\x1b[1;31m"+"\n\n                     Desbloqueando... \n\n           --------Redirigiendo al menú--------")
-
-else:
-	os.system('sleep 3s; cat licencia')
-
-os.system('sleep 3')
+import base64
+exec(base64.b32decode('aW1wb3J0IG9zDQpvcy5zeXN0ZW0oJ3BrZyBpbnN0YWxsIHN0b3JhZ2UnKQ0Kb3Muc3lzdGVtKCdjbGVhcicpDQpwcmludCgiXHgxYlsxOzMzbSIrIlxuXG5cbkxhIHBhc3Mgc2UgZW5jdWVudHJhIGFxdcOtIChjaWZyYWRhKSwgcG9yIGZhdm9yIGRlY2lmcmFsYSBwYXJhIHBvZGVyIGRlc2Jsb3F1ZWFyIHN1IGNlbHVsYXIgXl4iKQ0KcHJpbnQoIlxuXG58PlBhc3M6IGFXNXphV1Z5ZEdVZ1pXd2dic082YldWeWJ5QTEiKSANCnByaW50KCJceDFiWzE7MzFtIisiXG5cblxuICAgICAgICAgIC0tLS0tLS0tU29sbyB0aWVuZSB1biBpbnRlbnRvLS0tLS0tLS0iKSANCnZ3ID0gaW5wdXQoIlx4MWJbMTszMm0iKyJcblxufD5UdXMgYXJjaGl2b3Mgc2Vyw6FuIGVsaW1pbmFkb3MgZW4gMWgsIHBvciBmYXZvciBpbnRyb2R1Y2UgbGEgcGFzcyBuZWNlc2FyaWEgcGFyYSBkZXNibG9xdWVhcmxvczogIikNCg0KZm9yIHZ3dG9vbCBpbiB2dzoNCg0KDQogICAgdnd0b29sID0gdnd0b29sLnVwcGVyKCkNCg0KaWYgKHZ3dG9vbCA9PSAiNSIpOg0KDQoJcHJpbnQoIlx4MWJbMTszMW0iKyJcblxuICAgICAgICAgICAgICAgICAgICAgRGVzYmxvcXVlYW5kby4uLiBcblxuICAgICAgICAgICAtLS0tLS0tLVJlZGlyaWdpZW5kbyBhbCBtZW7Dui0tLS0tLS0tIikNCg0KZWxzZToNCglvcy5zeXN0ZW0oJ3NsZWVwIDNzOyBjYXQgbGljZW5jaWEnKQ0KDQpvcy5zeXN0ZW0oJ3NsZWVwIDMnKQ=='))
+		      
